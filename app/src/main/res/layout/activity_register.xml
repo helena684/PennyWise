@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#518986"
+    android:padding="16dp"
+    tools:context=".RegisterActivity">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE ACCOUNT"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"/>
+
+
+
+    <EditText
+        android:id="@+id/username_reg"
+        android:layout_width="265dp"
+        android:layout_height="49dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="Username"
+        android:padding="10dp"
+        android:text="Username"
+        android:textColor="#080808"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/email_reg"
+        android:layout_width="250dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/roundstyle"
+
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:text="Email"
+        android:textColor="#080808"
+        android:textSize="16sp" />
+
+
+
+    <EditText
+        android:id="@+id/password_reg"
+        android:layout_width="250dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/roundstyle"
+        android:inputType="textVisiblePassword"
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:text="Password"
+        android:textColor="#080808"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/confirm_password_reg"
+        android:layout_width="250dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/roundstyle"
+        android:inputType="textVisiblePassword"
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:text="Confirm Password"
+        android:textColor="#080808"
+        android:textSize="16sp" />
+
+
+    <!-- Get Started Button -->
+
+    <!-- Sign In Link -->
+
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="178dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#cccc"
+
+        android:onClick="Register"
+        android:padding="10dp"
+        android:text="Register"
+        android:textColor="#080808"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/signIn"
+        android:layout_width="192dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:onClick="signIn"
+        android:text="Have an account? Sign In"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PennyWise"
+        tools:targetApi="31">
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Models.MonthlyParentModel"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PDFViewer"
+            android:exported="false" />
+        <activity
+            android:name=".onBoarding"
+            android:exported="false" />
+        <activity
+            android:name=".onBoardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GraphActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Graph"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Tools.SharedPrefs"
+            android:exported="false" />
+        <activity
+            android:name=".Tools.DBHelper"
+            android:exported="false" />
+        <activity
+            android:name=".Tools.Constraints"
+            android:exported="false" />
+        <activity
+            android:name=".Models.YearlyModel"
+            android:exported="false" />
+        <activity
+            android:name=".Models.ParentYearlyModel"
+            android:exported="false" />
+        <activity
+            android:name=".Models.NotesModel"
+            android:exported="false" />
+        <activity
+            android:name=".Models.MonthlyChildModel"
+            android:exported="false" />
+        <activity
+            android:name=".Models.IncomeModel"
+            android:exported="false" />
+        <activity
+            android:name=".Models.CurrencyModel"
+            android:exported="false" />
+        <activity
+            android:name=".Adapters.YearlyAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Adapters.ViewPagerAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Adapters.SearchAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Adapters.ParentMonthlyAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Adapters.NotesAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Adapters.IncomeAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Adapters.CurrencyAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Adapters.ChildMonthlyAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.YearlyFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.NoteFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.MonthlyFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.DailyFragments"
+            android:exported="false" />
+        <activity
+            android:name="Fragments.YearlyFragment"
+            android:exported="false" />
+        <activity
+            android:name="Fragments.NoteFragment"
+            android:exported="false" />
+        <activity
+            android:name="Fragments.MonthlyFragment"
+            android:exported="false" />
+        <activity
+            android:name="Fragments.DailyFragment"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

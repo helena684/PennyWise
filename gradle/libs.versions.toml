@@ -1,0 +1,47 @@
+[versions]
+agp = "8.5.0"
+androidPdfViewer = "3.2.0-beta.1"
+appcompatVersion = "1.5.1"
+biometric = "1.1.0"
+circleimageview = "3.1.0"
+gson = "2.10.1"
+itext7 = "7.2.2"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+materialVersion = "1.6.1"
+pdfviewpager = "1.0.4"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+mpAndroidChart = "v3.1.0"
+firebaseCrashlyticsBuildtools = "3.0.2"
+pdfviewpagerVersion = "1.1.2"
+playServicesTasks = "18.2.0"
+
+[libraries]
+appcompat-v151 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+material-v161 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+pdfviewer = { group = "com.github.barteksc", name= "android-pdf-viewer", version.ref = "androidPdfViewer" }
+itext7-core = { group = "com.itextpdf", name = "itext7-core", version.ref = "itext7" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kernel = { module = "com.itextpdf:kernel", version.ref = "itext7" }
+layout = { module = "com.itextpdf:layout", version.ref = "itext7" }
+pdfviewpager = { group = "es.voghdev.pdfviewpager", name = "library", version.ref = "pdfviewpager" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+mpandroidchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpAndroidChart" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+voghdev-pdfviewpager = { module = "com.github.voghDev:PdfViewPager", version.ref = "pdfviewpagerVersion" }
+play-services-tasks = { group = "com.google.android.gms", name = "play-services-tasks", version.ref = "playServicesTasks" }
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
